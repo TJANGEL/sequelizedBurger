@@ -6,7 +6,10 @@ module.exports = function(sequelize, DataTypes) {
       // The name identifying the customer
       name: {
         type: DataTypes.STRING,
-        allowNull: false
+        allowNull: false,
+        validate: {
+          lens: [1, 140]
+        }
       }
     },
     {

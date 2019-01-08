@@ -1,6 +1,8 @@
+// import models
 var db = require("../models");
 
 module.exports = function(app) {
+  // get all burgers
   app.get("/", function(req, res) {
     db.Burger.findAll({}).then(function(dbBurger) {
       var hbsObject = {
@@ -9,7 +11,7 @@ module.exports = function(app) {
       res.render("index", hbsObject);
     });
   });
-
+  // add burgers
   app.post("/", function(req, res) {
     //        console.log(req.body);
     db.Burger.create({
@@ -23,7 +25,7 @@ module.exports = function(app) {
         res.json(err);
       });
   });
-
+  // update burgers
   app.put("/:id", function(req, res) {
     var id = req.params.id;
     //        console.log(req.body);

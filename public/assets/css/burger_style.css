@@ -1,0 +1,48 @@
+body {
+  font-family: "Germania One", cursive;
+  width: 100%;
+  height: auto;
+  background-image: url("../img/burger_animation.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  text-align: center;
+  margin: auto 0;
+  margin-bottom: 3%;
+  margin-top: 2%;
+  font-size: 80px;
+}
+
+#avail {
+  float: left;
+  margin-right: 6%;
+  margin-left: 15%;
+}
+
+#devoured {
+  float: right;
+  margin-right: 15%;
+  margin-left: 6%;
+}
+
+li {
+  font-size: 20px;
+  list-style-type: none;
+  padding: 5px;
+}
+
+li.btn {
+  padding-left: 10px;
+}
+
+#add {
+  clear: both;
+  margin-left: 15%;
+  padding-top: 3%;
+}
+
+.btn {
+  cursor: pointer;
+}

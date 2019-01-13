@@ -14,7 +14,7 @@ Your app will store every burger in a database, whether devoured or not.
 
 ## Heroku Deployed Link
 
-Click [here](https://infinite-eyrie-44190.herokuapp.com/) to view heroku deployed website
+Click [here](https://tranquil-anchorage-64499.herokuapp.com/) to view heroku deployed website
 
 ### npm install packages
 
